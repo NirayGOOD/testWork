@@ -1,0 +1,191 @@
+@font-face {
+	font-family: 'FocoTrialBold';
+	src: url('../fonts/Foco_Trial.ttf') format('ttf');
+	font-style: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FocoTrialLight';
+	src: url('../fonts/Foco_Trial_Lt.ttf') format('ttf');
+	font-style: light;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FocoTrialRg';
+	src: url('../src/fonts/Foco_Trial_Rg.ttf') format('ttf');
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 1024px;
+	background-image: url(../src/img/background.png);
+	background-repeat: no-repeat;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+}
+
+.spoiler {
+	font-family: FocoTrialRg, Arial, sans-serif;
+	font-weight: normal;
+	color: #b19942;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.shadow {
+	box-shadow: 0 5px 20px -18px #000000;
+	max-width: 720px;
+}
+
+.title {
+	font-family: FocoTrialBold, Arial, sans-serif;
+	font-weight: bold;
+	color: #0036a0;
+	text-align: center;
+	font-size: 26pt;
+
+	margin-top: 25px;
+}
+
+.can {
+	max-width: 700px;
+	z-index: 1;
+	position: relative;
+	margin: 0 130px;
+}
+
+.probiotic {
+	width: 200px;
+	z-index: 2;
+}
+
+.belock {
+	width: 200px;
+	z-index: 2;
+}
+
+.microelem {
+	width: 200px;
+	z-index: 2;
+}
+
+.plate {
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(
+		to right,
+		rgb(236, 236, 236),
+		rgba(251, 251, 251)
+	);
+
+	align-items: center;
+	align-content: center;
+	width: 300px;
+	min-height: 65px;
+	border-radius: 30px 15px;
+	border: 2px solid #ffffff;
+	font-size: 10pt;
+}
+
+.OKB {
+	color: white;
+	font-family: FocoTrialBold, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.plate_OKB {
+	background-image: linear-gradient(#cba543 0%, #d9b14a 35%, #b89b36 100%);
+	border-radius: 30px 15px;
+	min-width: 200px;
+	margin-left: 10px;
+}
+
+.browP {
+	font-family: FocoTrialBold, Arial, sans-serif;
+	font-weight: bold;
+	color: #d9b14a;
+	margin: 0;
+	text-align: center;
+}
+
+.plate:nth-child(2) {
+	width: 550px;
+	min-height: 65px;
+	margin-top: 5px;
+	font-size: 10pt;
+}
+
+.line {
+	width: 70px;
+	height: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-image: linear-gradient(#cba543 0%, #d9b14a 35%, #b89b36 100%);
+}
+
+.textP_OKB {
+	margin-left: 10px;
+}
+
+.browP3 {
+	font-family: FocoTrialBold, Arial, sans-serif;
+	font-weight: bold;
+	color: #d9b14a;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.browP4 {
+	font-family: FocoTrialBold, Arial, sans-serif;
+	font-weight: bold;
+	color: #d9b14a;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.menu {
+	margin: 0;
+	width: 250px;
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	align-content: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.textBottom {
+	color: #b19942;
+	font-family: FocoTrialRg, Arial, sans-serif;
+	font-weight: normal;
+	margin: 0;
+	margin-left: 15px;
+}
+
+.oracle {
+	position: absolute;
+	left: 49%;
+	scale: 50%;
+}
+
+.marginError {
+	margin-top: -50px;
+}
+
+.moving-object {
+	transition: transform 5s ease-in-out;
+}
